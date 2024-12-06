@@ -1,0 +1,17 @@
+.kochu-color{
+    color: #4B7322;
+}
+
+.off-white{
+    background-color: #FAFAF5;
+}
+
+
+
+
+.equal-height {
+    display: flex;
+}
+.equal-height > .card {
+    flex: 1;
+}

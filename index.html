@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row g-4 equal-height">
+            <!-- Product List -->
+            <div class="col-lg-8">
+                <div class="card h-100">
+                    <div class="card-body off-white">
+                        <!-- Product 1 -->
+                        <div class="card mb-3 off-white">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-3">
+                                    <img src="./assets/img/placeholder img.svg" class="img-fluid rounded-start" alt="Heirloom Tomato">
+                                </div>
+                                <div class="col-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-1 fw-bold">Heirloom tomato</h5>
+                                        <p class="card-text kochu-color fw-bold">$5.99 / kg</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end pe-3">
+                                    <p class="fw-bold mb-0">$5.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product 2 -->
+                        <div class="card mb-3 off-white">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-3">
+                                    <img src="./assets/img/placeholder img.svg" class="img-fluid rounded-start" alt="Organic Ginger">
+                                </div>
+                                <div class="col-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-1 fw-bold">Organic ginger</h5>
+                                        <p class="card-text kochu-color fw-bold">$12.99 / kg</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end pe-3">
+                                    <p class="fw-bold mb-0">$6.50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product 3 -->
+                        <div class="card">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-3">
+                                    <img src="./assets/img/placeholder img.svg" class="img-fluid rounded-start" alt="Sweet Onion">
+                                </div>
+                                <div class="col-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-1 fw-bold">Sweet onion</h5>
+                                        <p class="card-text kochu-color fw-bold">$2.99 / kg</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end pe-3">
+                                    <p class="fw-bold mb-0">$14.95</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="col-lg-4">
+                <div class="card h-100 off-white">
+                    <div class="card-body off-white">
+                        <h5 class="card-title fw-bold">Order summary</h5><br><br>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-1">Subtotal</p>
+                            <p class="mb-1">$27.44</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-1">Shipping</p>
+                            <p class="mb-1">$3.99</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-1">Tax</p>
+                            <p class="mb-1">$2.00</p>
+                        </div>
+                        
+                        <div class="d-flex justify-content-between fw-bold">
+                            <p class="mb-1">Total</p>
+                            <p class="mb-1">$33.43</p>
+                        </div>
+                        <button class="btn btn-success w-100 mt-3">Continue to payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
